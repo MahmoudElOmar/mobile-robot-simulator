@@ -3,7 +3,7 @@ project(mobile_robot)
 
 set(CMAKE_CXX_STANDARD 11)
 
-# all include libraries
+# include all libraries
 include_directories(include)
 
 add_definitions(-DSCRIPT_PATH="${CMAKE_CURRENT_SOURCE_DIR}/src/plot.py")
