@@ -1,0 +1,78 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/envir.h
+vector
+-
+./geom.h
+../include/geom.h
+
+../include/geom.h
+math.h
+-
+iostream
+-
+
+../include/robot.h
+vector
+-
+geom.h
+../include/geom.h
+
+../include/sensor.h
+string
+-
+envir.h
+../include/envir.h
+robot.h
+../include/robot.h
+
+/Users/mahmoud/Advanced Robotics/Advanced and Robot Programming/Lab/Mobile Robot/include/envir.h
+vector
+-
+./geom.h
+/Users/mahmoud/Advanced Robotics/Advanced and Robot Programming/Lab/Mobile Robot/include/geom.h
+
+/Users/mahmoud/Advanced Robotics/Advanced and Robot Programming/Lab/Mobile Robot/include/geom.h
+math.h
+-
+iostream
+-
+
+/Users/mahmoud/Advanced Robotics/Advanced and Robot Programming/Lab/Mobile Robot/include/robot.h
+vector
+-
+geom.h
+/Users/mahmoud/Advanced Robotics/Advanced and Robot Programming/Lab/Mobile Robot/include/geom.h
+
+/Users/mahmoud/Advanced Robotics/Advanced and Robot Programming/Lab/Mobile Robot/src/envir.cpp
+vector
+-
+math.h
+-
+sstream
+-
+algorithm
+-
+../include/robot.h
+/Users/mahmoud/Advanced Robotics/Advanced and Robot Programming/Lab/Mobile Robot/include/robot.h
+../include/envir.h
+/Users/mahmoud/Advanced Robotics/Advanced and Robot Programming/Lab/Mobile Robot/include/envir.h
+fstream
+-
+
+/Users/mahmoud/Advanced Robotics/Advanced and Robot Programming/Lab/Mobile Robot/src/robot.cpp
+iostream
+-
+math.h
+-
+robot.h
+-
+sensor.h
+-
+

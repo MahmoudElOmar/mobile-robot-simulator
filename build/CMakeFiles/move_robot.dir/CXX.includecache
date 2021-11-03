@@ -1,0 +1,80 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/mahmoud/Advanced Robotics/Advanced and Robot Programming/Lab/Mobile Robot/include/envir.h
+vector
+-
+./geom.h
+/Users/mahmoud/Advanced Robotics/Advanced and Robot Programming/Lab/Mobile Robot/include/geom.h
+
+/Users/mahmoud/Advanced Robotics/Advanced and Robot Programming/Lab/Mobile Robot/include/geom.h
+math.h
+-
+iostream
+-
+
+/Users/mahmoud/Advanced Robotics/Advanced and Robot Programming/Lab/Mobile Robot/include/robot.h
+vector
+-
+geom.h
+/Users/mahmoud/Advanced Robotics/Advanced and Robot Programming/Lab/Mobile Robot/include/geom.h
+
+/Users/mahmoud/Advanced Robotics/Advanced and Robot Programming/Lab/Mobile Robot/include/sensor.h
+string
+-
+envir.h
+/Users/mahmoud/Advanced Robotics/Advanced and Robot Programming/Lab/Mobile Robot/include/envir.h
+robot.h
+/Users/mahmoud/Advanced Robotics/Advanced and Robot Programming/Lab/Mobile Robot/include/robot.h
+
+/Users/mahmoud/Advanced Robotics/Advanced and Robot Programming/Lab/Mobile Robot/include/sensor_bearing.h
+sensor.h
+/Users/mahmoud/Advanced Robotics/Advanced and Robot Programming/Lab/Mobile Robot/include/sensor.h
+stdio.h
+/Users/mahmoud/Advanced Robotics/Advanced and Robot Programming/Lab/Mobile Robot/include/stdio.h
+geom.h
+/Users/mahmoud/Advanced Robotics/Advanced and Robot Programming/Lab/Mobile Robot/include/geom.h
+robot.h
+/Users/mahmoud/Advanced Robotics/Advanced and Robot Programming/Lab/Mobile Robot/include/robot.h
+envir.h
+/Users/mahmoud/Advanced Robotics/Advanced and Robot Programming/Lab/Mobile Robot/include/envir.h
+math.h
+-
+
+/Users/mahmoud/Advanced Robotics/Advanced and Robot Programming/Lab/Mobile Robot/include/sensor_range.h
+sensor.h
+/Users/mahmoud/Advanced Robotics/Advanced and Robot Programming/Lab/Mobile Robot/include/sensor.h
+stdio.h
+/Users/mahmoud/Advanced Robotics/Advanced and Robot Programming/Lab/Mobile Robot/include/stdio.h
+geom.h
+/Users/mahmoud/Advanced Robotics/Advanced and Robot Programming/Lab/Mobile Robot/include/geom.h
+robot.h
+/Users/mahmoud/Advanced Robotics/Advanced and Robot Programming/Lab/Mobile Robot/include/robot.h
+envir.h
+/Users/mahmoud/Advanced Robotics/Advanced and Robot Programming/Lab/Mobile Robot/include/envir.h
+cmath
+-
+
+/Users/mahmoud/Advanced Robotics/Advanced and Robot Programming/Lab/Mobile Robot/src/main.cpp
+iostream
+-
+math.h
+-
+cmath
+-
+../include/robot.h
+/Users/mahmoud/Advanced Robotics/Advanced and Robot Programming/Lab/Mobile Robot/include/robot.h
+../include/envir.h
+/Users/mahmoud/Advanced Robotics/Advanced and Robot Programming/Lab/Mobile Robot/include/envir.h
+../include/sensor.h
+/Users/mahmoud/Advanced Robotics/Advanced and Robot Programming/Lab/Mobile Robot/include/sensor.h
+../include/sensor_range.h
+/Users/mahmoud/Advanced Robotics/Advanced and Robot Programming/Lab/Mobile Robot/include/sensor_range.h
+../include/sensor_bearing.h
+/Users/mahmoud/Advanced Robotics/Advanced and Robot Programming/Lab/Mobile Robot/include/sensor_bearing.h
+
