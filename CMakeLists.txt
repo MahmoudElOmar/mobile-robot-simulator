@@ -13,7 +13,5 @@ add_library(lab2 SHARED ./src/robot.cpp ./include/robot.h ./include/geom.h
                         ./include/envir.h ./src/envir.cpp
                         ./include/sensor.h)
 
-# Lab 3: using the robot class
-# Lab 4: sensors on robot
 add_executable(move_robot ./src/main.cpp)
 target_link_libraries(move_robot lab2)
